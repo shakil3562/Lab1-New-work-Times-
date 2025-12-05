@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Minimal Clone</title>
+    
+    <!-- External Font for Logo Only - Essential for the look -->
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <span class="top-date">FRIDAY, DECEMBER 5, 2025</span>
+            <div class="logo">The New York Times</div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>WORLD</li>
+                    <li>U.S.</li>
+                    <li>BUSINESS</li>
+                    <li>OPINION</li>
+                    <li>SPORTS</li>
+                    <li>ARTS</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT (Flexbox) -->
+        <main class="main-flex-container">
+            
+            <!-- LEFT COLUMN: Main Story -->
+            <section class="main-story-col">
+                <article>
+                    <h1>The Future of Cities: How Green Spaces Are Transforming Urban Life</h1>
+                    
+                    <p><strong>NEW YORK —</strong> A movement gaining ground globally is turning underused concrete into thriving, sustainable parks. City planners are finding that small changes can have massive environmental and social impacts.</p>
+
+                    <img src="https://images.unsplash.com/photo-1542360549-3174268e3678?auto=format&fit=crop&w=650&q=80" alt="Urban Green Space" class="featured-img">
+                    <div class="caption">A rooftop garden in Brooklyn that has replaced 1,000 square feet of pavement.</div>
+
+                    <p>The success stories are compelling. From rooftop farms in Asia to vertical forests in Europe, the focus has shifted from expansion to sustainable densification.</p>
+                </article>
+            </section>
+
+            <!-- RIGHT COLUMN: Sidebar Stories -->
+            <aside class="sidebar-col">
+                <h2>MUST READS & OPINION</h2>
+                
+                <div class="sidebar-item">
+                    <h3>Opinion: The Unseen Costs of Working From Home</h3>
+                    <p>A leading economist argues that the hybrid model is creating a two-tiered professional class.</p>
+                </div>
+
+                <div class="sidebar-item">
+                    <h3>Science Breakthrough</h3>
+                    <p>Scientists confirm a new, highly effective method for breaking down microplastics in the ocean.</p>
+                </div>
+
+                <div class="sidebar-item">
+                    <h3>Culture: 5 Films to See This Weekend</h3>
+                    <p>Our critics weigh in on the best dramas and comedies hitting the streaming services now.</p>
+                </div>
+                
+                <hr class="border-thin">
+
+                <div class="sidebar-item">
+                    <h3>LATEST MARKET DATA</h3>
+                    <p>Dow Jones: +1.2%</p>
+                    <p>Oil Futures: $78.50/bbl</p>
+                </div>
+
+            </aside>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <hr class="border-thick">
+            <p style="font-size: 10px; color: #999;">&copy; 2025 The New York Times Company. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
